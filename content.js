@@ -1,4 +1,4 @@
-browser.storage.local.get("isEnabled").then((result) => {
+chrome.storage.local.get("isEnabled").then((result) => {
     if (result.isEnabled == false) return;
     const links = document.querySelectorAll("a");
 

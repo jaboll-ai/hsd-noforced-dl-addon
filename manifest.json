@@ -2,11 +2,6 @@
     "manifest_version": 3,
     "name": "HSD mdl no forced download",
     "version": "1.0",
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "hsd-mdl-noforced-dl@jaboll"
-        }
-    },
     "description": "An extension that blocks forced download of the HSD moodles PDFs",
     "permissions": [
         "storage"
